@@ -9,17 +9,12 @@ public class Ass_1 {
     
     System.out.println("To enter the product detail press 0");
     
-        
-        
-        int j;
+     int j;
      j = user_input.nextInt();
      
      switch(j){
-     
-     case 0 :
-    	 
-         
-         System.out.println("Enter the Product Name");
+      case 0 :
+    	 System.out.println("Enter the Product Name");
          obj1.Product_name = user_input.next();
          
          System.out.println("Enter the Product Code");
@@ -54,7 +49,7 @@ public class Ass_1 {
       break;
       
   default :
- 	 System.out.println("Wrong Input");
+ 	 System.out.println("wrong inout ");
  	 
   }
       
