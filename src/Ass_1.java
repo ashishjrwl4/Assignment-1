@@ -32,12 +32,8 @@ public class Ass_1 {
          obj1.product_cost= user_input.next();
          
          break;
-    
-  
-     
-         
-         
-     default :
+   
+         default :
     	 System.out.println("Wrong Input");
     	 }
 
@@ -47,7 +43,7 @@ public class Ass_1 {
      int k;
   k = user_input.nextInt();
   
-  switch(k){
+  switch(k)
   
   case 0 :
  	 System.out.println("name of product is :" + obj1.Product_name);
@@ -60,8 +56,48 @@ public class Ass_1 {
       
   default :
  	 System.out.println("Wrong Input");
+ 	 
+  }
       
-     
+      System.out.println("Enter the prodect detail two"); 
+  
+ 	 Product_detail obj2 = new Product_detail();
+ 	 
+ 	System.out.println("Enter the Product Two Name");
+    obj2.Product_name = user_input.next();
+    
+    System.out.println("Enter the Product Two Code");
+    obj2.Product_code = user_input.next();
+    
+    System.out.println("Enter the Product Two Brand");
+    obj2.Product_brand = user_input.next();
+    
+    System.out.println("Enter the Product Cost");
+    obj2.product_cost= user_input.next();
+    
+    System.out.println("To know the product two detail press 0");
+    
+    int f;
+  f= user_input.nextInt();
+  
+  switch(f){
+  
+  case 0 :
+ 	 System.out.println("name of product is :" + obj2.Product_name);
+ 	 System.out.println("code of product is:" + obj2.Product_code);
+ 	 System.out.println("brand of product is:" + obj2.Product_brand);
+ 	 System.out.println("cost of product is :" + obj2.product_cost);
+      
+      
+     break;
+      
+  default :
+ 	 System.out.println("Wrong Input");
+ 	 
+  }
+    
+    
+    
     }
 }
-}
+
