@@ -2,7 +2,8 @@ import java.util.Scanner;
 public class Ass_1 {
 
 	public static void main(String[] args) {
-		Product_detail obj1 = new Product_detail();
+		Product_detail obj1 = new Product_detail(); 
+		//New Object created Change A
 		
 		
         Scanner user_input = new Scanner(System.in);
@@ -50,16 +51,5 @@ public class Ass_1 {
       
   default :
  	 System.out.println("wrong inout ");
- 	 
-  }
-      
-     
-  
- 	 
- 	 
-  }
-    
-    
-    
-}
+ 	   }     }}
 
