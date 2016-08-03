@@ -2,8 +2,8 @@ import java.util.Scanner;
 public class Ass_1 {
 
 	public static void main(String[] args) {
-		Product_detail obk1 = new Product_detail(); //object name change in line 5
-		
+		Product_detail obj1 = new Product_detail(); 
+		int g; //new variable formed 
 		
 		
         Scanner user_input = new Scanner(System.in);
@@ -42,10 +42,10 @@ public class Ass_1 {
   switch(k){
   
   case 0 :
- 	 System.out.println("name of product is :" + obk1.Product_name);
- 	 System.out.println("code of product is:" + obk1.Product_code);
- 	 System.out.println("brand of product is:" + obk1.Product_brand);
- 	 System.out.println("cost of product is :" + obk1.product_cost);
+ 	 System.out.println("name of product is :" + obj1.Product_name);
+ 	 System.out.println("code of product is:" + obj1.Product_code);
+ 	 System.out.println("brand of product is:" + obj1.Product_brand);
+ 	 System.out.println("cost of product is :" + obj1.product_cost);
       
       break;
       
