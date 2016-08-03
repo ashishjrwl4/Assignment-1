@@ -7,7 +7,9 @@ public class Ass_1 {
 		
 		
         Scanner user_input = new Scanner(System.in);
-    
+    System.out.println("hello world");
+    int e =20;
+    System.out.println("value of e:" + e);
     System.out.println("To enter the product detail press 0");
     
      int j;
