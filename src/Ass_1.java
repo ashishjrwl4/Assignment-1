@@ -40,13 +40,36 @@ public class Ass_1 {
    
          default :
     	 System.out.println("Wrong Input");
+    	 
     	 }
-
+       int z;
+      z = user_in.nextInt(); 
+     switch(z){
+     case 0:
+    	 System.out.println("hello world");
+    	 break;
+     case 1:
+    	 System.out.println("hi everyone");
+    	 break;
+    	 
+     
+     
+     
+     
+     
+     }
+     
+     
+     
+     
+     
+     
      System.out.println("to know the product detail press 0");
      
      
+     
      int k;
-  k = user_input.nextInt();
+  k = user_in.nextInt();
   
   switch(k){
   
