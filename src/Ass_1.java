@@ -6,28 +6,35 @@ public class Ass_1 {
 		int g; //new variable formed 
 		
 		
-        Scanner user_input = new Scanner(System.in);
+        Scanner user_in= new Scanner(System.in);
     System.out.println("hello world");
-    int e =20;
-    System.out.println("value of e:" + e);
-    System.out.println("To enter the product detail press 0");
+    int e, f ,i;
+    e = user_in.nextInt();
+    f = user_in.nextInt();
+    i = user_in.nextInt();
     
-     int j;
-     j = user_input.nextInt();
+    System.out.println("value of e" + e);
+    System.out.println("value of f: " + f);
+    System.out.println("value of i" + i);
+    
+    
+    
+    int j;
+     j = user_in.nextInt();
      
      switch(j){
       case 0 :
     	 System.out.println("Enter the Product Name");
-         obj1.Product_name = user_input.next();
+         obj1.Product_name = user_in.next();
          
          System.out.println("Enter the Product Code");
-         obj1.Product_code = user_input.next();
+         obj1.Product_code = user_in.next();
          
          System.out.println("Enter the Product Brand");
-         obj1.Product_brand = user_input.next();
+         obj1.Product_brand = user_in.next();
          
          System.out.println("Enter the Product Cost");
-         obj1.product_cost= user_input.next();
+         obj1.product_cost= user_in.next();
          
          break;
    
